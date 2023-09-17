@@ -47,8 +47,7 @@
 .nav__toggle{
     display: none;
 }
-
-@media (max-width :568px){
+@media (max-width :768px){
     .nav{
         display: block;
         height: auto;
@@ -85,12 +84,12 @@
         flex-direction: column;
     }
     .nav__walcome.open h1{
-        font-size: .6rem;
+        font-size: .8rem;
         padding: .5rem;
     }
     .nav__walcome.open img{
-        width: 100px;
-        margin:0 0 2rem 3rem;
+        width: 90px;
+        margin:0 0 1rem 1rem;
         border-radius: 20px;
     }
     .nav__logo.open img{
@@ -157,6 +156,7 @@
         flex-direction: initial;
         height: 200px;
         max-width: 1000px;
+        justify-content: space-between;
     }
     .rotate.open{
         rotate: -90deg;
