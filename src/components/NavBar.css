@@ -88,10 +88,11 @@
         padding: 1rem .3rem .2rem .3rem;
     }
     .nav__walcome.open img{
-        width: 90px;
+        width: 85px;
         padding: .5rem;
-        margin:0 0 .5rem 2rem;
+        margin:0 0 2rem 3rem;
         border-radius: 20px;
+        height: 90px;
     }
     .nav__logo.open img{
         display: none;
